@@ -1,0 +1,65 @@
+<div>
+<form>
+<p>Enter your name:
+<input type="text" id="username" name="username" maxlength="30" placeholder="username" />
+<input type="submit" value="enter" />	
+</p>
+</form>
+</div>
+
+<div>
+<form>
+<p>Enter your phone:
+<input type="phone" id="phone" name="phone" maxlength="30" placeholder="+380..." />
+<input type="submit" value="enter" />	
+</p>
+</form>
+</div>
+
+<div>
+<form>
+<p>You can leave your comment here:
+<input type="textarea" id="textarea" name="textarea" maxlength="140" 
+placeholder="comment..." />
+<input type="submit" id="submit" name="submit" value="send" />	
+</p>
+</form>
+</div>
+
+<!--следующую форму тоже возможно как окно для комментария использовать?-->
+<div>
+<form>
+<p>What do you think of this?</p>
+<textarea name="comments" cols="25" rows="10" maxlength="150" 
+placeholder="leave your comment please"></textarea>
+<input type="submit" value="ready" />
+</form>
+</div>
+
+<div>
+<form>
+<p>What is your favourite language?</p>
+<select name="language">
+<option value="english">English</option>
+<option value="German">German</option>
+<option value="Ukrainian">Ukrainian</option>
+<option value="Dutch">Dutch</option>
+<option value="Russian">Russian</option>
+</select>
+<input type="submit" value="go on" />
+</form>
+</div>
+<!--следующую форму я немного видоизменил, но так тоже можно делать для сайтов, верно?-->
+<div>
+<form>
+<p>What is your favourite language?</p>
+<select name="language" multiple="multiple" size="3">
+<option value="english">English</option>
+<option value="German">German</option>
+<option value="Ukrainian">Ukrainian</option>
+<option value="Dutch">Dutch</option>
+<option value="Russian">Russian</option>
+</select>
+<input type="submit" value="go!" />
+</form>
+</div>
