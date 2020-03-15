@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fonts</title>
+    <link rel="stylesheet" href="../fonts/stylesheet.css" />
+  </head>
+  <style>
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+color:#333;
+font-size: 14px;
+line-height: 20px;
+margin: 10px;
+}
+
+.main h1 {
+  font-family: 'open_sansbold_italic';
+  font-size: 24px;
+  text-align: center;
+}
+ .forms h2 {
+   font-family: 'open_sanslight';
+   font-size: 20px;
+   line-height: 30px;
+ }
+.forms textarea {
+  height: 100px;
+  width: 100px;
+}
+
+a:active {
+  color: green;
+}
+a:visited {
+  color:brown;
+}
+a:focus {
+  color: orange;
+}
+a:hover {
+  color: red;
+}
+  </style>
+  <body>
+    <div class="main">
+<h1>А не написать ли здесь заголовок? А-а-а-a не написать...</h1>
+      <div class="forms">
+        <fieldset>
+          <legend>  <h2>Оформить заявку можно здесь... но не нужно</h2></legend>
+        <label>Кто ты? <p><input type="username" name="username" placeholder="username" /></p></label>
+      <label>Позвони мне <p>  <input type="telephone" name="telephone"  placeholder="telephone" /></p></label>
+        <label> Или напиши<p><input type="email" name="email"  placeholder="email" /></p></label>
+      <label>Скажи хоть что-то <p>  <textarea name="comments" maxlength="140" placeholder="Давай-ка, напиши что-нить"></textarea></p></label>
+      <label>Сделай это <p>  <button type="button" name="button">Жми, не бойся</button></p></label>
+      </div>
+      </fieldset>
+      </div>
+<div class="links">
+<ul>
+  <li><a href="http://www.kinopoisk.ru" target="_blank">Главная</a></li>
+    <li><a href="http://lostfilm.tv" target="_blank">О нас</a></li>
+    <li><a href="http://new-rutor.org" target="_blank">Контакты</a></li>
+</ul>
+
+</div>
+  </body>
+</html>
